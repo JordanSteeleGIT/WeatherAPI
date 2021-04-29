@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.window-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #54888f;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center-container {
+  height: 550px;
+  width: 450px;
+  border: 2px solid black;
+  position: relative;
+}
+.top {
+  padding-top: 40px;
+}
+.placename {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.time {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+}
+.sunicon {
+  height: 90px;
+  width: 90px;
+}
+.sun-container {
+  display: flex;
+}
+#submitButton {
+  font-size: 24px;
+  background-color: #54888f;
+  border: none;
+}
+.searchbar {
+  width: 415px;
+  background-color: #54888f;
+  border: none;
+  font-size: 26px;
+  color: black;
+}
+.searchbar::placeholder {
+  color: black;
+}
+
+.temperature {
+  font-size: 43px;
+  margin-bottom: 30px;
+}
